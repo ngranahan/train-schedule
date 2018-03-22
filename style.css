@@ -1,5 +1,22 @@
+.jumbotron {
+    background: url(train-header-2.jpg);
+}
+.jumbotron h1 {
+    background: rgba(37, 31, 16, 0.5);
+    color: white;
+}
+body {
+    background: rgb(104, 103, 102);
+}
 .main-content {
-    margin: 40px;
+    margin: 80px;
+}
+.panel-default {
+    border: none;
+}
+.panel-default>.panel-heading {
+    background: rgb(37, 31, 16);
+    color: white;
 }
 
 td, th {
