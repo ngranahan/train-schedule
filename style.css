@@ -4,15 +4,18 @@
 .jumbotron h1 {
     background: rgba(37, 31, 16, 0.5);
     color: white;
+    display: inline-block;
+    padding: 20px;
 }
 body {
     background: rgb(104, 103, 102);
 }
 .main-content {
-    margin: 80px;
+    margin: 80px 100px;
 }
 .panel-default {
     border: none;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.3);
 }
 .panel-default>.panel-heading {
     background: rgb(37, 31, 16);
@@ -22,4 +25,12 @@ body {
 td, th {
     padding: 20px;
     text-align: left;
+}
+.btn {
+    background: rgb(37, 31, 16);
+    color: white;
+}
+.btn:hover {
+    background: rgb(48, 41, 25);
+    color: rgb(138, 129, 116);
 }
